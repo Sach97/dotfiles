@@ -135,3 +135,4 @@ if [ -f '/Users/sachaarbonel/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/sachaarbonel/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sachaarbonel/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
